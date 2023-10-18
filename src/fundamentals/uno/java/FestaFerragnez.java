@@ -8,6 +8,7 @@ public class FestaFerragnez {
 
         String[] listaInvitati = { "Dua Lipa", "Paris Hilton", "Manuel Agnelli", "J-Ax", "Francesco Totti", "Ilary Blasi", "Bebe Vio, Luis", "Pardis Zarei", "Martina Maccherone", "Rachel Zeilic"};
         Scanner scan = new Scanner(System.in);
+
         System.out.println("Benvenuto alla festa dei Ferragnez! Per accedere, inserisce il nome e cognome:");
         String nomeUtente = scan.nextLine();
 

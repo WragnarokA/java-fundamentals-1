@@ -19,8 +19,8 @@ public class CalcoloBigliettoDelTreno {
         } else if (eta >= 65) {
             prezzoBase *= 0.6;
         }
-        String numeroArrontondato = df.format(prezzoBase);
-        System.out.println("Il prezzo del biglietto è: " + numeroArrontondato + " €");
+        String numeroArrotondato = df.format(prezzoBase);
+        System.out.println("Il prezzo del biglietto è: " + numeroArrotondato + " €");
 
         scanner.close();
     }
